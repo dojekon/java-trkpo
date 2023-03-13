@@ -3,13 +3,13 @@ package lab1;
 import java.util.Arrays;
 
 public class Lab1 {
-    public static boolean swap(int i, int j, int[] anArray) {
-        if (i < 0 || i >= anArray.length || j < 0 || j >= anArray.length) {
+    public static boolean swap(int i, int j, int[] array) {
+        if (i < 0 || i >= array.length || j < 0 || j >= array.length) {
             return false; // выход за пределы массива
         }
-        int temp = anArray[i];
-        anArray[i] = anArray[j];
-        anArray[j] = temp; 
+        int temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
         return true;
     }
 
