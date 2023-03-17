@@ -1,8 +1,8 @@
-package lab5;
+package Lab5;
 
 import java.util.List;
 
-public class lab5<T extends Comparable<T>> {
+public class Lab5<T extends Comparable<T>> {
     public T minElement(int begin, int end, List<T> list) {
         if (end < begin || begin < 0 || end > list.size()) {
             throw new IllegalArgumentException();
